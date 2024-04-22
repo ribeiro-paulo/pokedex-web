@@ -7,17 +7,21 @@ export default {
         listPaginated: Object
     },
     components: { Card },
-    data: () => ({
+    data (){
+        const nextUrl = this.listPaginated.next
+
+        return {
         search: "",
-        nextUrl: "",
-        pokemons: []
-    }),
+        pokemons: [],
+        nextUrl
+    }},
     methods: {
         select(pokemon) {
             this.$emit('selectPokemon', pokemon)
         },
         async load({ done }) {
-            const { next, results } = await getAllPokemons(this.nextUrl || this.listPaginated.next)
+            if(!this.nextUrl) return done('empty');
+            const { next, results } = await getAllPokemons(this.nextUrl)
             this.nextUrl = next;
             this.pokemons.push(...results);
             done('ok');

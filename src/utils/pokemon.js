@@ -14,7 +14,7 @@ export const formatPokemon = (pokemon) => {
     name: pokemon.name,
     types: pokemon.types.map((item) => item.type.name),
     species: pokemon.species.name,
-    thumbnail: pokemon.sprites.other.dream_world.front_default,
+    thumbnail: pokemon.sprites.front_default,
     sprites: extractImageUrls(pokemon.sprites),
     moves: pokemon.moves.map((item) => item.move.name),
     indices: pokemon.game_indices.map((item) => ({
