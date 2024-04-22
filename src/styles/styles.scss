@@ -1,0 +1,84 @@
+.type-background {
+  background: linear-gradient(
+    141.58deg,
+    var(--primary-color) 35.77%,
+    var(--secondary-color) 88.68%
+  ) !important;
+}
+
+.chip-bg {
+  background: var(--secondary-color) !important;
+}
+
+.grass {
+  --primary-color: #63bc5a;
+  --secondary-color: rgba(99, 188, 90, 0.5);
+}
+.poison {
+  --primary-color: #b567ce;
+  --secondary-color: rgba(181, 103, 206, 0.5);
+}
+.fire {
+  --primary-color: #ff9d55;
+  --secondary-color: rgba(255, 157, 85, 0.5);
+}
+.flying {
+  --primary-color: #89aae3;
+  --secondary-color: rgba(137, 170, 227, 0.5);
+}
+.water {
+  --primary-color: #5090d6;
+  --secondary-color: rgba(80, 144, 214, 0.5);
+}
+.bug {
+  --primary-color: #91c12f;
+  --secondary-color: rgba(145, 193, 47, 0.5);
+}
+.normal {
+  --primary-color: #919aa2;
+  --secondary-color: rgba(145, 154, 162, 0.5);
+}
+.electric {
+  --primary-color: #f4d23c;
+  --secondary-color: rgba(244, 210, 60, 0.5);
+}
+.ground {
+  --primary-color: #d97845;
+  --secondary-color: rgba(217, 120, 69, 0.5);
+}
+.fairy {
+  --primary-color: #ec8fe6;
+  --secondary-color: rgba(236, 143, 230, 0.5);
+}
+.fighting {
+  --primary-color: #ce416b;
+  --secondary-color: rgba(206, 65, 107, 0.5);
+}
+.psychic {
+  --primary-color: #fa7179;
+  --secondary-color: rgba(250, 113, 121, 0.5);
+}
+.rock {
+  --primary-color: #c5b78c;
+  --secondary-color: rgba(197, 183, 140, 0.5);
+}
+.ghost {
+  --primary-color: #5269ad;
+  --secondary-color: rgba(82, 105, 173, 0.5);
+}
+.ice {
+  --primary-color: #73cec0;
+  --secondary-color: rgba(115, 206, 192, 0.5);
+}
+.dragon {
+  --primary-color: #0b6dc3;
+  --secondary-color: rgba(11, 109, 195, 0.5);
+}
+.dark {
+  --primary-color: #5a5465;
+  --secondary-color: rgba(90, 84, 101, 0.5);
+}
+.steel {
+  --primary-color: #5a8ea2;
+  --secondary-color: rgba(90, 142, 162, 0.5);
+}
