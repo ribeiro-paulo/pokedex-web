@@ -6,6 +6,14 @@ Welcome to the Pokédex Project! This repository contains the source code for a 
 
 Check out the live demo: [Pokédex Demo](https://pokedex-web-nu.vercel.app/)
 
+## Preview
+
+#### Home page
+![Pokédex home page](src/assets/github-1.png)
+
+#### Pokemon details
+![Pokédex details](src/assets/github-2.png)
+
 ## Technologies Used
 
 - HTML
